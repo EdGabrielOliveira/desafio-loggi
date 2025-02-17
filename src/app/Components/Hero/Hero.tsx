@@ -19,9 +19,12 @@ export default function Hero() {
             className="w-[30rem] h-14 rounded-l-lg bg-white text-gray-700 text-start pl-4 outline-none "
             placeholder="Digite o código de rastreio"
           />
-          <button className="h-14 bg-sky-500 hover:bg-sky-600 w-[4rem] flex justify-center items-center text-center text-2xl font-extrabold text-white rounded-r-lg">
+          <a
+            href="#"
+            className="h-14 bg-sky-500 hover:bg-sky-600 w-[4rem] flex justify-center items-center text-center text-2xl font-extrabold text-white rounded-r-lg"
+          >
             <VscSearch />
-          </button>
+          </a>
         </div>
         <div className="text-gray-200 flex flex-col max-w-[40rem] text-center items-center justify-center gap-2">
           <h1 className="text-3xl font-semibold text-gray-100">

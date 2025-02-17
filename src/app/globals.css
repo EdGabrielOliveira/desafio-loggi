@@ -15,4 +15,7 @@ body {
   .footer-nav {
     @apply hover:text-sky-500 hover:underline hover:underline-offset-2 hover:decoration-sky-500 text-gray-500 cursor-pointer;
   }
+  .footer-apps {
+    @apply hover:scale-95 hover:delay-150 hover:duration-150 rounded-xl border-[1px] w-[20rem] h-[4rem] border-sky-500 bg-transparent cursor-pointer p-2 pr-4 pl-4;
+  }
 }

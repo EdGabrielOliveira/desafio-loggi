@@ -12,7 +12,13 @@ import Logo from "../../../../public/loggi.svg";
 export default function Footer() {
   return (
     <div className="pt-28 pb-10 pr-32 pl-32 bg-gray-100 w-full">
-      <Image src={Logo} alt={"Logo"} className="pb-10 cursor-pointer" />
+      <a href="#" className="cursor-pointer">
+        <Image
+          src={Logo}
+          alt={"Logo: Coelho da Loggi"}
+          className="pb-10 cursor-pointer"
+        />
+      </a>
       <div className="flex justify-between items-center ">
         <ul className="flex text-start gap-12 text-sm">
           <li className="flex flex-col gap-2">
@@ -44,20 +50,20 @@ export default function Footer() {
         </ul>
         <span className="h-[8rem] border-[1px] border-gray-200" />
         <div className="flex flex-col gap-2 items-center justify-end">
-          <a>
+          <a href="#">
             <Image
-              alt=""
+              alt="Disponível no Google Play"
               src={Google}
               width={180}
-              className="hover:scale-95 hover:delay-150 hover:duration-150 rounded-xl border-[1px] w-[20rem] h-[4rem] border-sky-500 bg-transparent cursor-pointer p-2 pr-4 pl-4"
+              className="footer-apps"
             />
           </a>
-          <a>
+          <a href="#">
             <Image
-              alt=""
+              alt="Disponível na App Store"
               src={Apple}
               width={180}
-              className="hover:scale-95 hover:delay-150 hover:duration-150 rounded-xl border-[1px] w-[20rem] h-[4rem] border-sky-500 bg-transparent cursor-pointer p-2 pr-4 pl-4"
+              className="footer-apps"
             />
           </a>
         </div>
@@ -65,18 +71,18 @@ export default function Footer() {
       <span className="flex flex-1 border-[1px] w-full border-gray-300 mt-14 items-center justify-center" />
       <div className="flex items-center pt-8 justify-between">
         <ul className="text-gray-600 flex gap-4 text-x items-center">
-          <li className="footer-nav">
+          <a href="#" className="footer-nav">
             <FaFacebookF />
-          </li>
-          <li className="footer-nav text-[24px]">
+          </a>
+          <a href="#" className="footer-nav text-[24px]">
             <LiaLinkedinIn />
-          </li>
-          <li className="footer-nav">
+          </a>
+          <a href="#" className="footer-nav">
             <BsTwitter />
-          </li>
-          <li className="footer-nav">
+          </a>
+          <a href="#" className="footer-nav">
             <BsYoutube />
-          </li>
+          </a>
         </ul>
         <ul className="text-xs flex gap-8">
           <li>
