@@ -7,11 +7,14 @@ import { FaFacebookF } from "react-icons/fa";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { BsTwitter, BsYoutube } from "react-icons/bs";
 
+import Logo from "../../../../public/loggi.svg";
+
 export default function Footer() {
   return (
     <div className="pt-28 pb-10 pr-32 pl-32 bg-gray-100 w-full">
+      <Image src={Logo} alt={"Logo"} className="pb-10 cursor-pointer" />
       <div className="flex justify-between items-center ">
-        <ul className="flex text-start gap-10 text-sm">
+        <ul className="flex text-start gap-12 text-sm">
           <li className="flex flex-col gap-2">
             <p className="pb-4"> Para você </p>
             <a className="footer-nav"> Entregador via aplicativo </a>
@@ -39,13 +42,14 @@ export default function Footer() {
             <a className="footer-nav"> Imprensa </a>
           </li>
         </ul>
+        <span className="h-[8rem] border-[1px] border-gray-200" />
         <div className="flex flex-col gap-2 items-center justify-end">
           <a>
             <Image
               alt=""
               src={Google}
               width={180}
-              className="hover:scale-95 hover:delay-150 hover:duration-150 rounded-xl border-2 w-[16rem] h-[4rem] border-sky-500 bg-transparent cursor-pointer p-2 pr-4 pl-4"
+              className="hover:scale-95 hover:delay-150 hover:duration-150 rounded-xl border-[1px] w-[20rem] h-[4rem] border-sky-500 bg-transparent cursor-pointer p-2 pr-4 pl-4"
             />
           </a>
           <a>
@@ -53,7 +57,7 @@ export default function Footer() {
               alt=""
               src={Apple}
               width={180}
-              className="hover:scale-95 hover:delay-150 hover:duration-150 rounded-xl border-2 w-[16rem] h-[4rem] border-sky-500 bg-transparent cursor-pointer p-2 pr-4 pl-4"
+              className="hover:scale-95 hover:delay-150 hover:duration-150 rounded-xl border-[1px] w-[20rem] h-[4rem] border-sky-500 bg-transparent cursor-pointer p-2 pr-4 pl-4"
             />
           </a>
         </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import classNames from "classnames";
 import { useState, useEffect, useRef } from "react";
 import { FiChevronDown } from "react-icons/fi";
 
@@ -12,9 +13,10 @@ interface DropdownProps {
   name: string;
   link?: string;
   options?: DropdownOption[];
+  className?: string;
 }
 
-export default function Dropdown({ name, options, link }: DropdownProps) {
+export default function Dropdown({ name, options, link, className }: DropdownProps) {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -34,12 +36,15 @@ export default function Dropdown({ name, options, link }: DropdownProps) {
   return (
     <div
       ref={dropdownRef}
-      className="relative inline-block text-left font-sans font-semibold"
+      className="relative inline-block text-left font-sans font-semibold items-center"
     >
       <a
         onClick={() => setIsOpen(!isOpen)}
-        className={`flex transition-all items-center gap-2 hover:text-sky-500 text-gray-700 cursor-pointer
-        ${isOpen && options ? "text-sky-500" : ""}`}
+        className={classNames(
+          `flex transition-all items-center gap-2 hover:text-sky-500 text-gray-700 cursor-pointer 
+        ${isOpen && options ? "text-sky-500" : ""}`,
+          className,
+        )}
         href={link}
       >
         {name}
