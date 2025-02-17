@@ -45,7 +45,7 @@ export default function Footer() {
               alt=""
               src={Google}
               width={180}
-              className="hover:scale-95 hover:delay-100 rounded-xl border-2 w-[16rem] h-[4rem] border-sky-500 bg-transparent cursor-pointer p-2 pr-4 pl-4"
+              className="hover:scale-95 hover:delay-150 hover:duration-150 rounded-xl border-2 w-[16rem] h-[4rem] border-sky-500 bg-transparent cursor-pointer p-2 pr-4 pl-4"
             />
           </a>
           <a>
@@ -53,18 +53,18 @@ export default function Footer() {
               alt=""
               src={Apple}
               width={180}
-              className="hover:scale-95 hover:delay-100 rounded-xl border-2 w-[16rem] h-[4rem] border-sky-500 bg-transparent cursor-pointer p-2 pr-4 pl-4"
+              className="hover:scale-95 hover:delay-150 hover:duration-150 rounded-xl border-2 w-[16rem] h-[4rem] border-sky-500 bg-transparent cursor-pointer p-2 pr-4 pl-4"
             />
           </a>
         </div>
       </div>
       <span className="flex flex-1 border-[1px] w-full border-gray-300 mt-14 items-center justify-center" />
       <div className="flex items-center pt-8 justify-between">
-        <ul className="text-gray-600 flex gap-4 text-xl">
+        <ul className="text-gray-600 flex gap-4 text-x items-center">
           <li className="footer-nav">
             <FaFacebookF />
           </li>
-          <li className="footer-nav">
+          <li className="footer-nav text-[24px]">
             <LiaLinkedinIn />
           </li>
           <li className="footer-nav">
