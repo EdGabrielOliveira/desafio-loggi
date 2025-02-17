@@ -10,7 +10,7 @@ export default function Hero() {
           <h1 className="text-6xl font-light z-10 w-[44rem] font-sans text-center text-white tracking-wider leading-tight">
             Rastreie sua encomenda
           </h1>
-          <p className="text-xl text-center text-gray-400 tracking-wide">
+          <p className="text-2xl text-center text-gray-200 tracking-wide font-semibold">
             Com a Loggi o rastreio do seu envio é prático
           </p>
         </div>
@@ -23,15 +23,15 @@ export default function Hero() {
             <VscSearch />
           </button>
         </div>
-        <div className="text-gray-200 flex flex-col max-w-[40rem] text-center items-center justify-center gap-6">
-          <h1 className="text-3xl">
+        <div className="text-gray-200 flex flex-col max-w-[40rem] text-center items-center justify-center gap-2">
+          <h1 className="text-3xl font-semibold text-gray-100">
             A melhor solução de envio de encomendas para todo o Brasil.
           </h1>
           <p className="text-lg max-w-[30rem]">
             Alcance mais clientes com entregas locais e nacionais. Com a Loggi você
             economiza tempo e dinheiro
           </p>
-          <a className="bg-sky-500 p-4 pr-8 pl-8 w-[16rem] rounded-xl font-semibold hover:bg-sky-600 cursor-pointer">
+          <a className="bg-sky-500 p-4 pr-8 pl-8 w-[16rem] mt-4 rounded-xl font-semibold hover:bg-sky-600 cursor-pointer">
             Enviar agora!
           </a>
         </div>
