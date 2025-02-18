@@ -41,7 +41,7 @@ export default function Dropdown({ name, options, link, className }: DropdownPro
       <a
         onClick={() => setIsOpen(!isOpen)}
         className={classNames(
-          `flex transition-all items-center gap-2 hover:text-sky-500 text-gray-700 cursor-pointer 
+          `flex transition-all items-center md:gap-0 lg:gap-2 xl:gap-2 hover:text-sky-500 text-gray-700 cursor-pointer xl:text-base lg:text-sm md:text-xs
         ${isOpen && options ? "text-sky-500" : ""}`,
           className,
         )}
@@ -51,7 +51,7 @@ export default function Dropdown({ name, options, link, className }: DropdownPro
         <FiChevronDown
           className={`transition-transform duration-300 font-semibold ${
             isOpen ? "rotate-180" : "rotate-0"
-          } ${options ? "block" : "hidden"}`}
+          } ${options ? "block md:mt-1 lg:mt-0" : "hidden"}`}
         />
       </a>
       {isOpen && (options?.length ?? 0) > 0 && (
@@ -60,7 +60,7 @@ export default function Dropdown({ name, options, link, className }: DropdownPro
             {options?.map((option) => (
               <a
                 href={option.url}
-                className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex hover:text-sky-500"
+                className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex hover:text-sky-500 xl:text-base lg:text-sm"
                 key={option.label}
               >
                 {option.label}

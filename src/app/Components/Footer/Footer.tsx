@@ -11,7 +11,7 @@ import Logo from "../../../../public/loggi.svg";
 
 export default function Footer() {
   return (
-    <div className="pt-28 pb-10 pr-32 pl-32 bg-gray-100 w-full">
+    <div className="pt-28 pb-10 pr-32 pl-32 bg-gray-100 w-full flex flex-col lg:flex xl:flex md:flex sm:hidden xs:hidden">
       <a href="#" className="cursor-pointer">
         <Image
           src={Logo}
