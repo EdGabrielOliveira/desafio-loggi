@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Loggi Rastreio – Template para Rastreamento de Encomendas
 
-## Getting Started
+Loggi Rastreio é um **template** desenvolvido atravéz de um Desafio da Loggi de criar uma Landing Page de uma página de rastreio!
 
-First, run the development server:
+## 📌 Sobre o Template
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este template fornece uma estrutura inicial para um sistema onde os usuários podem **rastrear o status de suas encomendas** de forma simples e intuitiva.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Busca por código de rastreamento**
+- **Interface responsiva e intuitiva**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O template foi construído utilizando:
 
-## Learn More
+- **Next.js** – Para um front-end rápido e escalável.
+- **TypeScript** – Para maior segurança no desenvolvimento.
+- **Tailwind CSS** – Para estilização e responsividade.
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Como Utilizar o Template
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Caso queira explorar o código ou utilizá-lo como base para seus próprios projetos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/loggi-rastreio-template.git
 
-## Deploy on Vercel
+## Algumas imagens: 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![loggi](https://github.com/user-attachments/assets/7ec05fef-cdbe-40ea-afde-f8e554e60f88)
+![loggi 2](https://github.com/user-attachments/assets/60b5efe2-c77e-4346-9490-7e10d5fa80c4)
